@@ -13,12 +13,19 @@ Collection of reading resources that are interesting or very helpful for machine
 * [Deep Learning Book](https://www.deeplearningbook.org/) Deep learning book authored by Ian Goodfellow, Yoshua Bengio and Aaron Courville
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) This book teaches the deep learning concepts with great detail examples.
 
+## Papers related
+* [Papers with code](https://paperswithcode.com/), it highlights trending ML research and the code to implement it
+
 ## Blogs/Website
-* [Machine learning is fun](https://www.machinelearningisfun.com/) Great reading resource for the entry-level learners.
 * [NLP-progress](http://nlpprogress.com/) This website tracks the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks
 * [Sebastian Ruder's Blog](http://ruder.io/) This blog includes Machine Learning, Deep Learning, and NLP content.
 * [Aminer.org](https://aminer.org/) The free online service used to index, search, and mine big scientific data. A very useful tool to explore the exports/researchers in specific domain.
 * [deeplearning.net](http://deeplearning.net/) Deep learning collection
+* [stateoftheart.ai](https://www.stateoftheart.ai/), collect the state of art tech about Artificial Intelligence (AI) and Machine Learning (ML)
+
+## Measurement
+* [AI Progress Measurement](https://www.eff.org/ai/metrics), the measurement about AI progress
 
 ## Articles
 * [Machine learning for humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12) Easy to understanding and good for entry-level learners.
+* [Machine learning is fun](https://www.machinelearningisfun.com/) Great reading resource for the entry-level learners
