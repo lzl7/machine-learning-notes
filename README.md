@@ -26,6 +26,7 @@ Collection of reading resources that are interesting or very helpful for machine
 * [Aminer.org](https://aminer.org/) The free online service used to index, search, and mine big scientific data. A very useful tool to explore the exports/researchers in specific domain.
 * [deeplearning.net](http://deeplearning.net/) Deep learning collection
 * [stateoftheart.ai](https://www.stateoftheart.ai/), collect the state of art tech about Artificial Intelligence (AI) and Machine Learning (ML)
+* [Distill](https://distill.pub/), Latest articles about machine learning
 
 ## Measurement
 * [AI Progress Measurement](https://www.eff.org/ai/metrics), the measurement about AI progress
