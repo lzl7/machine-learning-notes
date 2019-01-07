@@ -19,6 +19,7 @@ Collection of reading resources that are interesting or very helpful for machine
 ## Papers related
 * [Papers with code](https://paperswithcode.com/), it highlights trending ML research and the code to implement it
 * [Machine translation reading list](https://github.com/THUNLP-MT/MT-Reading-List), Tsinghua Natural Language Processing Group summarizes a list of paper list worth to read
+* [Graph Neural Networks(GNN) Papers](https://github.com/thunlp/GNNPapers), great paper list for graph neural networks
 
 ## Blogs/Website
 * [NLP-progress](http://nlpprogress.com/) This website tracks the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks
