@@ -28,6 +28,10 @@ Collection of reading resources that are interesting or very helpful for machine
 * [deeplearning.net](http://deeplearning.net/) Deep learning collection
 * [stateoftheart.ai](https://www.stateoftheart.ai/), collect the state of art tech about Artificial Intelligence (AI) and Machine Learning (ML)
 * [Distill](https://distill.pub/), Latest articles about machine learning
+* [Facebook AI Blog](https://research.fb.com/blog/)
+* [Open AI](https://openai.com/)
+* [The Berkeley Artificial Intelligence Research Blog](https://bair.berkeley.edu/blog/)
+* [Deep Mind Blog](https://deepmind.com/blog/)
 
 ## Measurement
 * [AI Progress Measurement](https://www.eff.org/ai/metrics), the measurement about AI progress
@@ -35,3 +39,9 @@ Collection of reading resources that are interesting or very helpful for machine
 ## Articles
 * [Machine learning for humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12) Easy to understanding and good for entry-level learners.
 * [Machine learning is fun](https://www.machinelearningisfun.com/) Great reading resource for the entry-level learners
+* [Learning how to learn deep learning](https://evilmartians.com/chronicles/learning-how-to-learn-deep-learning)
+
+## Resource Hub
+* [Must-read Blogs for AI and Deep Learning Enthusiasts](https://blog.paralleldots.com/data-science/must-read-blogs-ai-deep-learning-enthusiasts/)
+* [Tensorflow Course](https://github.com/machinelearningmindset/TensorFlow-Course)
+* [Deep Learning Ocean](https://github.com/machinelearningmindset/deep-learning-ocean)
