@@ -103,3 +103,73 @@ Deep learning leverage the signal from loss function and continuously adjust the
     - Better *activation function* for neural layers
     - Better weight-initializations schemes
     - Better optimization schemes, such as RMSProp and Adam
+
+## Mathmatical basic for neural networks
+
+### 1. Three basic things for neural network training
+- **A loss function** - how network measure its performance on training data, which used to guide the right direction
+- **An optimizer** - how the network adjust/update itself based on the data and the loss function
+- **Metries to monitor during training and test** - the quality of the training result
+
+### 2. Data representation neural networks
+
+#### Tensors
+
+**Definition of tensors**
+*Tensors* - multidimensional numpy arrays (almost always numerical data). Tensors are a generalization of matrices to an arbitrary number of dimensions. Dimension is often called an axis in the context of tensors. Dimensionality can denote either the number of entries along a specific axis or the number of axes in a tensor. The rank of a tensor is the number of axes, like a *tensor of rank n*.
+    - Scalars (0D tensors), only one number
+    - Vectors (1D tensors), an array of numbers
+    - Matrices (2D tensors), an array of vectors
+    - 3D tensors or higher-dimentional tensors
+
+**Key attributes of tensors**
+- Number of axes (rank)
+- Shape - the tuple of integers that describe how many dimensions the tensor has along each axis, like a matrix has shape (3,5)
+- Data type (usually called dtype in python library)
+
+### 3. Tensors operations - The gears of neural network
+
+All transformations learned by deep learning NN can be reduced to tensor operations applied to tensors of numeric data.
+
+1. Element-wise operation
+
+Element-wise operations are applied independently to each entry in the tensors. Activation function like relu and addition are element-wise. That means it could be parallel implemented.
+
+2. Broadcasting
+
+Smaller tensor will be broadcasted to matched the shape of the larger tensor, when different shapes of two tensors be added. Broadcasting consists of two steps:
+- Axes (called broadcast axes), are added to smaller tensor to match the ndim of larger tensor
+- Smaller tensor is repeated alongside these new axes to match the full shape of the larger tensor
+
+3. Tensor dot
+
+Tensor dot operation is also called tensor product. Contray to element-wise operations, it combines entries in the input tensors.
+
+4. Tensor reshaping
+
+Reshaping a tensor means rearranging its rows and columns to match a target shape. The reshaped tensor has the same total number of coefficients as the initial tensor.
+
+**Data batches**
+In general, the first asix in all data tensors in deep learning will be the *sample axis (i.e. sample dimension)*. In addition, DL model don't process an entire dataset, but break it into small batches. When considering a batch tensor, the first axis is called *batch axis or batch dimension*。
+
+**Example**
+- Vector data - 2D tensors of shape (samples, features)
+- Timeseries data or sequence data - 3D tensors of shape (sample, timesteps, features)
+- Images - 4D tensors of shape (samples, height, width, channels)
+- Video - 5D tensors of shape (sample, frames, height, width, channels)
+
+
+### 4. Gradient-based optimization - the engine of neural networks
+
+*Weights (trainable parameters)* contains the infor learned by network from the training data. Initially, weight matrices are filled with small random value (the step called random initialization).
+
+*Training* the gradual adjustment of weights, it is basically machine learing all about. It happens within a training loop. Each iteration over the training data is called an *epoch*.
+
+*How to increase/decrease the coefficient for learning? And by how much?*
+
+- Naive solution is freeze all weights except one scalar coefficient and try different values for it.
+- Since the operation is differentiable, compute the gradient of the loss with regard to the network's coefficients.
+
+A gradient is the derivative of a tensor operation. Algorithms like Stochastic Gradient Descent, mini-batch SGD, SGD with momentum, Adagrad, RMSProp etc, they are known as *optimization methods* or *optimizers*. Why momentum with SGD? It resolves the convergence speed and local minima problems.
+
+*Backpropagation algorithm (i.e. reverse-mode differentiation)*: applying the chain rule ( *f(g(x)))' =f'(g(x))*g'(x)* ) to compute the gradient values of a neural network. Modern frameworks have the capability of symbolic differentiation, which given a chain of operations with a known derivative they can compute a gradient function for the chain (by applying the chain rule).
