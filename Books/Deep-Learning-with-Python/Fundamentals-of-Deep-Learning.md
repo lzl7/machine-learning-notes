@@ -173,3 +173,15 @@ In general, the first asix in all data tensors in deep learning will be the *sam
 A gradient is the derivative of a tensor operation. Algorithms like Stochastic Gradient Descent, mini-batch SGD, SGD with momentum, Adagrad, RMSProp etc, they are known as *optimization methods* or *optimizers*. Why momentum with SGD? It resolves the convergence speed and local minima problems.
 
 *Backpropagation algorithm (i.e. reverse-mode differentiation)*: applying the chain rule ( *f(g(x)))' =f'(g(x))*g'(x)* ) to compute the gradient values of a neural network. Modern frameworks have the capability of symbolic differentiation, which given a chain of operations with a known derivative they can compute a gradient function for the chain (by applying the chain rule).
+
+### 5. Core components in neural network
+
+The objects in nerual network:
+- *Layers*, which are combined into a network (or model)
+- The *input data* and corresponding *targets*
+- The *loss function*, which defines the feedback signal used for learning. It is the quantity that will be minimized during training.
+- The *optimizer*, which determines how learning proceeds (i.e. how the network be updated based on the loss function)
+
+A deep-learning model is a directed, acyclic graph of layers. The topology of a network defines a hypothesis space. By choosing a network topology, it constrains the space of possibilities to a specific series of tensor operations, mapping input data to output data.
+
+The neural network has multiple output might have multiple loss functions (one per output), but the gradient-descent process must be based on a single scalar loss value.
