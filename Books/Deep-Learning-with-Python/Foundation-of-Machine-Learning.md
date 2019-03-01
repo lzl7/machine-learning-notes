@@ -48,7 +48,7 @@ The agent receives information about its enironment and learns to choose actions
 - Vector regression -- A task where the target is a set of continuous scalar value
 - Mini-batch or batch -- A small set of samples (typically between 8 and 128) that are processed simultaneously by the model
 
-## Evaluating machine learning models
+## Evaluate machine learning models
 
 *What is a good model?*
 
@@ -199,4 +199,4 @@ Regularization solutions:
 - Try different architecture: add or remove layers
 - Add L1 and/or L2 regularization
 - Try different hyperparameters (such as the number of units per layer or learning rate) to find the optimized configuration
-- Optionally, iterate on feature engineering: add new features, or remove features that doesn't seems informative 
+- Optionally, iterate on feature engineering: add new features, or remove features that doesn't seems informative
