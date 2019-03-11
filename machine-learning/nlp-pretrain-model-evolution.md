@@ -102,5 +102,34 @@ Differnces (vs ELMO):
 The downstream task network has to be the same as the GPT, take the pretrained GPT parameters can directly used and then, use the current task to train the network parameter (fine-tuning) to adapt to resolve the current task. The same as the approach in image domain.
 
 
+### BERT
+
+Bert use the same two-phase model as GPT, but the language model is using the bi-language model with larger dataset.
+
+When modifying the downstream task structure, BERT uses different solutions.
+
+*How BERT construct bidi-language model?*
+
+- Masked language model
+  - Essence same as CBOW
+    - 15% words randomly selected and masked by `[Mask]`. In order to void the overfit (learn) to detect `[Mask]` which invisuable for prediction
+      - 80% marked as [Mask]
+      - 10% replaced as another word
+      - 10% no change
+- Next Sentence Prediction
+  - The corpus are corrected two sequences
+  - The second sentence is reordered as the first sentence
+
+Then the training task is not only the Masked language model but also the sentence relationship prediction. Its pretrain is a multiple tasks.
+
+Input of BERT:
+- Position info embedding
+- Word embedding
+- Sentence embedding
+
+*What affect BERT quality?*
+
+- Major factor: Bi-direction language model
+
 ## References
 - [从Word Embedding到Bert模型—自然语言处理中的预训练技术发展史](https://zhuanlan.zhihu.com/p/49271699)
