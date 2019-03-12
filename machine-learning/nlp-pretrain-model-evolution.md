@@ -57,6 +57,15 @@ Btw, the NNLM only use the context-before as input and predict the word.
 
 - Not able to distinguish the same word, different semantics.
 
+*Implement tech*
+
+- Negative Sampling:
+  - Instead of finding the most posibility word from the whole dictionary list, for a given word randomly sample other noise words
+
+- Hierarchical Softmax
+  - Dramatically reduce the complexity from O(n) to O(logn)
+  - It uses the binary tree, where leaves represent probabilities of words
+
 ### ELMO (Embedding from language Models)
 
 The core difference in ELMO is about deep contextualized: deep and context. The word embedding previous is static, after training the word representation is frozon and will NOT change in different contexts.
