@@ -32,6 +32,7 @@ Collection of reading resources that are interesting or very helpful for machine
 * [Open AI](https://openai.com/)
 * [The Berkeley Artificial Intelligence Research Blog](https://bair.berkeley.edu/blog/)
 * [Deep Mind Blog](https://deepmind.com/blog/)
+* [Visualizing machine learning one concept at a time](https://jalammar.github.io/), very cool and interesting blogs which illustrates one concept in detail in each blog.
 
 ## Measurement
 * [AI Progress Measurement](https://www.eff.org/ai/metrics), the measurement about AI progress
