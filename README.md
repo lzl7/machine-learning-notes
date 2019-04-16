@@ -46,3 +46,4 @@ Collection of reading resources that are interesting or very helpful for machine
 * [Must-read Blogs for AI and Deep Learning Enthusiasts](https://blog.paralleldots.com/data-science/must-read-blogs-ai-deep-learning-enthusiasts/)
 * [Tensorflow Course](https://github.com/machinelearningmindset/TensorFlow-Course)
 * [Deep Learning Ocean](https://github.com/machinelearningmindset/deep-learning-ocean)
+* [Deep Learning Monitor](https://deeplearn.org/), collects most recent topic about deep learning
