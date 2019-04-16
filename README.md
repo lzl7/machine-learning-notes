@@ -33,7 +33,6 @@ Collection of reading resources that are interesting or very helpful for machine
 * [The Berkeley Artificial Intelligence Research Blog](https://bair.berkeley.edu/blog/)
 * [Deep Mind Blog](https://deepmind.com/blog/)
 * [Visualizing machine learning one concept at a time](https://jalammar.github.io/), very cool and interesting blogs which illustrates one concept in detail in each blog.
-* [Deep Learning Monitor](https://deeplearn.org/), collects most recent topic about deep learning
 
 ## Measurement
 * [AI Progress Measurement](https://www.eff.org/ai/metrics), the measurement about AI progress
@@ -47,3 +46,4 @@ Collection of reading resources that are interesting or very helpful for machine
 * [Must-read Blogs for AI and Deep Learning Enthusiasts](https://blog.paralleldots.com/data-science/must-read-blogs-ai-deep-learning-enthusiasts/)
 * [Tensorflow Course](https://github.com/machinelearningmindset/TensorFlow-Course)
 * [Deep Learning Ocean](https://github.com/machinelearningmindset/deep-learning-ocean)
+* [Deep Learning Monitor](https://deeplearn.org/), collects most recent topic about deep learning
