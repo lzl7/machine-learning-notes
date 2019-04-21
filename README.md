@@ -11,6 +11,7 @@ Collection of reading resources that are interesting or very helpful for machine
     * More machine learning courses: http://speech.ee.ntu.edu.tw/~tlkagk/courses.html
 * [Machine learning by Andrew Ng, Standford University](https://www.coursera.org/learn/machine-learning) Great machine learning starting resources
 * [Natural Language Processing with Deep Learning](https://www.youtube.com/watch?v=OQQ-W_63UgQ&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6) Natural Language Processing [courses](http://web.stanford.edu/class/cs224n/) from Standford University.
+* [FastAI online courses](https://www.fast.ai/), FastAI has a lot of great online courses and the courses are very focusing on the practice. Great resources to hand on.
 
 ## Books
 * [Deep Learning Book](https://www.deeplearningbook.org/) Deep learning book authored by Ian Goodfellow, Yoshua Bengio and Aaron Courville
