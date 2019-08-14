@@ -1,6 +1,6 @@
 # Jupyter setup tips
 - Connection refused
-    - Issue: After installed jupyter, and run `jupyter notebook` to start the jupyter service.
+    - Issue: After installed jupyter, run `jupyter notebook` to start the jupyter service, it fails with connection refused error.
     - Reasons: 
         - Firewall. You need to open the port to allow the access in the windows/linux. In windows, go to the *Windows Defender Firewall* to open the port to allow access. In Linux, use the command to open the port: `sudo ufw allow 8888` (Note: replace the port to that one you need)
         - The jupyter default setting not update yet. By default, the jupyter notebook only accepts the traffic from localhost. You might need to change to config. Please check this great [instruction](https://stackoverflow.com/questions/42848130/why-i-cant-access-remote-jupyter-notebook-server). Following are the sum up steps:
