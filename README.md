@@ -43,6 +43,7 @@ Collection of reading resources that are interesting or very helpful for machine
 * [Machine learning for humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12) Easy to understanding and good for entry-level learners.
 * [Machine learning is fun](https://www.machinelearningisfun.com/) Great reading resource for the entry-level learners
 * [Learning how to learn deep learning](https://evilmartians.com/chronicles/learning-how-to-learn-deep-learning)
+* [The matrix calculus you need for deep learning](https://explained.ai/matrix-calculus/)
 
 ## Resource Hub
 * [Must-read Blogs for AI and Deep Learning Enthusiasts](https://blog.paralleldots.com/data-science/must-read-blogs-ai-deep-learning-enthusiasts/)
