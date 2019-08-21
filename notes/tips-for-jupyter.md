@@ -13,6 +13,10 @@
 
 
 # Jupyter efficency tips
+
+- `%load_ext autoreload %autoreload 2`, this setting is to enable the module auto reload. If you change the source code for the module, the latest version will be automatically reloaded into the jupyter notebook environment.
+- `%matplotlib inline`, enable to display the plot chart within the jupyter cell.
+
 ## Inspection related
 - **?** in front of a method, view the method's docsting. Example: `?pandas.read_csv`
 - **??** in front of a method, view the source code of the method. Example: `??pandas.read_csv`
