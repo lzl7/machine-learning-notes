@@ -41,3 +41,5 @@ The model actually learned from the training phase how the language pair aligns 
 
 ## References
 - [Visualizing A Neural Machine Translation Model](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
+- [Illustrated transformer](http://jalammar.github.io/illustrated-transformer/)
+- [Harvard attention paper](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
