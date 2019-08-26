@@ -1,0 +1,2 @@
+# R squared
+R squared(R2) also call [Coefficient of determination](https://en.wikipedia.org/wiki/Coefficient_of_determination), which is the proportion of the variance in the dependent variable that is predictable from the independent variable.
