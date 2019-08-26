@@ -1,2 +1,2 @@
 # R squared
-R squared(R2) also call [Coefficient of determination](https://en.wikipedia.org/wiki/Coefficient_of_determination), which is the proportion of the variance in the dependent variable that is predictable from the independent variable.
+R squared(R2) also call [Coefficient of determination](https://en.wikipedia.org/wiki/Coefficient_of_determination), which is the proportion of the variance in the dependent variable that is predictable from the independent variable. It is not necessary what you actually try to optimize, but it is a good number for every model where you could start to get a feeling how it looks like. *That is the ratio between how good the model (RMSE) vs how good is the naive mean model (RMSE)*.
