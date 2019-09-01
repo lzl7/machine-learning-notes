@@ -68,6 +68,13 @@ Magic functions are the shortcuts which are very helpful to extend the capabilit
 - **%timeit {command}**, run the command multiple times and calculate the mean and std 
 - **%prun {command}**, display the exeuction time detail for the whole call stack
 
+Notes about Wall time and CPU time:
+- Wall time: the amount of actual time it takes, including CPU/IO/Networking etc.
+- CPU time: the total CPU time it takes
+- User time: the CPU time spent on user's code (exclude kernel code)
+
+So, if it is running on multiple cores, the CPU time would higher than the wall time.
+
 ## Cell operations
 - **esc** switch from editing to command mode
 - **shift + M** in the command mode will merge the next cell into the current cell
