@@ -1,2 +1,2 @@
 - One-shot learning: learn something once and recognize it again
-- Zero-shot learning: learn to recognize something you have never seen before
+- Zero-shot learning (ZSL): learn to recognize something you have never seen before
