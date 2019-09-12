@@ -17,8 +17,27 @@ Usually, the models should have some variety, say one trained on whole training 
 
 ***The whole point is to make the validation set representative to the test set, which means gains on the evaliation set should also reflect (improve) in test set at some extent.***
 
-## Test set
+# Test set
 When build test set for production, we need to understand (including but not limited to):
 - What is the actual customers use the model?
 - How much time it takes between building model to running in production?
 - How often it needs to refresh the model?
+
+# Suggestions for temporal data
+A simple way is try to avoid using time variables as predicators if something else could be used to show better or stronger relationship that could used in the future predictions
+
+## How to figure out other variables instead of time?
+1. Figure out what is difference between validation set and training set. *How?*
+   - Create a random forest, and the dependent variable is "is it in the validation set" (`is_valid`)
+     - Create a new data frame with training and validation set together
+     - Create a new column called `is_valid`, with training set item as 0 validation's as 1
+     - If yes, use the feature importance to understand the top N (time related) columns in both training and validation set.
+       - If they are clearly time dependent, drop them and retrain. And see whether it can still predict `is_valid` and continue the process to understand the features.
+       - Please note that, you might still want them in the random forst if they are important. If not, drop them if there are some other none-time depdendent variable works well. *The whole point is try to remove the time dependent but still keep the accuracy.*
+   - *How to use the random forest?* 
+     - If it is not time dependent, it shouldn't be possible to figure out if something `is_valid` or not
+   - *Trick in Kaggle*: 
+     - How to test/understand whether the test set is random sample or not?
+       - Put the training and test set together and create a new column `is_test` and see whether you can predict it
+     - ***Why need to understand it**?*
+       - If you can, you don't have a random sample, it means you need to figure out how to create a valiation set
