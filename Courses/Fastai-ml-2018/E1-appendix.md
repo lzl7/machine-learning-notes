@@ -1,2 +1,3 @@
 - One-shot learning: learn something once and recognize it again
 - Zero-shot learning (ZSL): learn to recognize something you have never seen before
+- Bootstrapping means sampling with replacement, which means the sample might appear more than once.
