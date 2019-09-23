@@ -21,6 +21,7 @@ When operating on two tensors/arrays, Pytorch/Numpy compares the shapes element-
   - `c[None,:,None].shape` is (1,3,1)
 - `np.broadcast_to(c,(3,3))`, broad cast it to shape (3,3)
 - `view` in Pytorch
+  - `view(-1)` means flatten the tensor into one axes
   - If you don't know the number in certain dimension, use `-1`.
 - `squeeze` in Pytorch
   - 1. Without arg, it will remove all the dimension with size of 1.
