@@ -23,10 +23,12 @@ When operating on two tensors/arrays, Pytorch/Numpy compares the shapes element-
 - `view` in Pytorch
   - If you don't know the number in certain dimension, use `-1`.
 - `squeeze` in Pytorch
-- `resize` in python
+  - 1. Without arg, it will remove all the dimension with size of 1.
+  - 2. With specified dim, it will only remove that position if it is 1 otherwise, no change in the new returned tensor.
+  - `unsqueeze` will return a new tensor with inserting a dimension in specified position. But share the same underlying data.
+- `resize` in Pytorch
+- `reshape` in Pytorch
 
-Pytorch also has the other functions help to reshape:
-- `reshape`. The difference comparing with numpy.reshape is that it will always copy the memory while [numpy's](https://docs.scipy.org/doc/numpy/reference/generated/numpy.reshape.html) might not.
 
 ## Contigious vs non-contigious tensor
 This is to indicate in the underlying the memory is continuously stored or not. You could check whether a tensor is contigious or not via method `is_contiguous()`. 
