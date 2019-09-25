@@ -1,5 +1,7 @@
 RNN has the sequence nature characteristics and not able to run in parallel, CNN (like ByteNet, ConvS2S) requires to consider combining info from distant parts. The transformer only performs on a small, constant number of steps. 
 
+> **Transformer** is sequence-to-sequence with *selft-attention*.s
+
 # High level components
 
 Encoding component is a stack of encoders (six of them and on top of each other). Decoding component is a stack of decoders with the same number.
@@ -89,6 +91,7 @@ The output vacabulary is created in the preprocessing phase before training, and
 The loss for the model is basically compare the predicted probability distribution against the desire output and tweak the weights. How to compare two probability distributions? [Cross-entropy](https://colah.github.io/posts/2015-09-Visual-Information/) and [Kullback–Leibler divergence](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained).
 
 ## References
+- [Transformer - 李宏毅](https://www.youtube.com/watch?v=ugWDIIOHtPA)
 - [Illustrated transformer](https://jalammar.github.io/illustrated-transformer/)
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - [Transformer: A Novel Neural Network Architecture for Language Understanding](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)
