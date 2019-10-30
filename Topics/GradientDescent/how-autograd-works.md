@@ -23,7 +23,7 @@ In the data structure, it has several important properteis:
 ## Gradient calcuation kernel: Function 
 The `Function` is the kernel to calculate the gradient. Basically, in the neural network, the matrix compulations uses different operations to construct the model. Those operations is already built-in pytorch and could meet almost all the needs of the modeling.
 
-`Function` is the base class that define the interface about how to calcualte the gradient via the api `backward`. And in pytorch, it already defines all the [backward functions](https://github.com/pytorch/pytorch/blob/master/torch/csrc/jit/symbolic_script.cpp) of the operations, like add, mul, div, clamp etc.
+`Function` is the base class that define the interface about how to calcualte the gradient via the api `backward`. And in pytorch, it already defines all the backward functions of the operations via the [symbolic script](https://github.com/pytorch/pytorch/blob/master/torch/csrc/jit/symbolic_script.cpp), like add, mul, div, clamp etc. If you are interesting on Jit, please check [Jit Technical Overview](https://github.com/pytorch/pytorch/blob/master/torch/csrc/jit/docs/OVERVIEW.md).
 
 So, for each operation, it will have a corresponding backward method. That is the core magic of how the autograd calculation implemented.
 
@@ -35,7 +35,7 @@ Computation graph is the foundation of the autograd. The graph is built dynamica
 The *leaf* node will be the stop condition for the gradient calculation and parameter update. 
 
 ## Resource
--[How the backpropagation algorithm works](http://neuralnetworksanddeeplearning.com/chap2.html)
+- [How the backpropagation algorithm works](http://neuralnetworksanddeeplearning.com/chap2.html)
 - [PyTorch Autograd: Understanding the heart of PyTorch’s magic](https://towardsdatascience.com/pytorch-autograd-understanding-the-heart-of-pytorchs-magic-2686cd94ec95)
 - [PyTorch Autograd Explained - In-depth Tutorial](https://www.youtube.com/watch?v=MswxJw-8PvE)
 - [Getting Started with PyTorch Part 1: Understanding how Automatic Differentiation works](https://towardsdatascience.com/getting-started-with-pytorch-part-1-understanding-how-automatic-differentiation-works-5008282073ec)
