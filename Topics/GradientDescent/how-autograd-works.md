@@ -34,6 +34,9 @@ Computation graph is the foundation of the autograd. The graph is built dynamica
 
 The *leaf* node will be the stop condition for the gradient calculation and parameter update. 
 
+## Combination: Autograd
+With all the foundation in pytorch, it could eventually auto calculate the grad. Here is the [source code](https://github.com/pytorch/pytorch/blob/f636dc927687cc50a527c9185f9d95ed65e32996/torch/csrc/jit/autodiff.cpp)
+
 ## Resource
 - [How the backpropagation algorithm works](http://neuralnetworksanddeeplearning.com/chap2.html)
 - [PyTorch Autograd: Understanding the heart of PyTorch’s magic](https://towardsdatascience.com/pytorch-autograd-understanding-the-heart-of-pytorchs-magic-2686cd94ec95)
