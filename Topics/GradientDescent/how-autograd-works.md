@@ -43,3 +43,4 @@ With all the foundation in pytorch, it could eventually auto calculate the grad.
 - [PyTorch Autograd Explained - In-depth Tutorial](https://www.youtube.com/watch?v=MswxJw-8PvE)
 - [Getting Started with PyTorch Part 1: Understanding how Automatic Differentiation works](https://towardsdatascience.com/getting-started-with-pytorch-part-1-understanding-how-automatic-differentiation-works-5008282073ec)
 - [Automatic differentiation in PyTorch](https://openreview.net/pdf?id=BJJsrmfCZ)
+- [pytorch-traceable-differentiable](http://lernapparat.de/pytorch-traceable-differentiable/)
