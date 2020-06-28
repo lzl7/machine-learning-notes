@@ -6,6 +6,10 @@ The repository to store all the machine learning related materials.
 # Learning Resources
 Collection of reading resources that are interesting or very helpful for machine learning.
 
+## Machine learning in practice
+- [Rules of Machine learning, Martin Zinkevich](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
+- [Writing code for NLP Research](https://github.com/allenai/writing-code-for-nlp-research-emnlp2018/blob/master/writing_code_for_nlp_research.pdf)
+
 ## Videos/Courses
 * [Machine learning (HUng-yi Lee, NTU)](https://www.youtube.com/watch?v=CXgbekl66jc&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49) Very great learning course. Professor Lee is humor and the introduction for the concepts/formula deductions are very easy to understand. You could lean how machine learning works, why it works.
     * More machine learning courses: http://speech.ee.ntu.edu.tw/~tlkagk/courses.html
