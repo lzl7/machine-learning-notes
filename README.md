@@ -49,6 +49,9 @@ Collection of reading resources that are interesting or very helpful for machine
 * [Learning how to learn deep learning](https://evilmartians.com/chronicles/learning-how-to-learn-deep-learning)
 * [The matrix calculus you need for deep learning](https://explained.ai/matrix-calculus/)
 
+## Dataset
+- https://allenai.org/data
+
 ## Resource Hub
 * [Must-read Blogs for AI and Deep Learning Enthusiasts](https://blog.paralleldots.com/data-science/must-read-blogs-ai-deep-learning-enthusiasts/)
 * [Tensorflow Course](https://github.com/machinelearningmindset/TensorFlow-Course)
