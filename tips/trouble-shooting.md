@@ -1,4 +1,4 @@
-### Azure [Blobfuse](https://github.com/Azure/azure-storage-fuse) mount falure
+### Azure [Blobfuse](https://github.com/Azure/azure-storage-fuse) mount failure
   * Error: *error while loading hsared libraries: libgnutls.so.26: cannot open shared object file: No such file or directory*
   * Context: already installed the blobfuse package, however it fails when trying to mount the blob to local machine via `./blobfuse {mount local target folder path/name} --tmp-path=/mnt/blobfusetmp -o attr_timeout=240 -o entry_timeout=240 -o negative_timeout=120 --config-file=../connection.cfg`.
   * Reason: the installed blobfuse version does not match the current OS version. For example, you install the version for Ubuntu 16, but the current OS is Ubuntu 18.
