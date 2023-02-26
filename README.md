@@ -50,7 +50,7 @@ Collection of reading resources that are interesting or very helpful for machine
 * [The matrix calculus you need for deep learning](https://explained.ai/matrix-calculus/)
 
 ## Dataset
-- https://allenai.org/data
+- [Allen AI Data](https://allenai.org/data)
 
 ## Resource Hub
 * [Must-read Blogs for AI and Deep Learning Enthusiasts](https://blog.paralleldots.com/data-science/must-read-blogs-ai-deep-learning-enthusiasts/)
