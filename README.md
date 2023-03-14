@@ -1,7 +1,7 @@
 The repository to store all the machine learning related materials.
 
 # Notes
-* [Machine learning related concepts](machine-learning/machine-learning-concepts.md)
+* [Machine learning related concepts](Topics/machine-learning-concepts.md)
 
 # Learning Resources
 Collection of reading resources that are interesting or very helpful for machine learning.
