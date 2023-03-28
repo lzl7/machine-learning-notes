@@ -59,4 +59,4 @@ Collection of reading resources that are interesting or very helpful for machine
 * [Deep Learning Monitor](https://deeplearn.org/), collects most recent topic/papers about deep learning
 
 ## Academic Sources
-- https://openreview.net/
+- https://openreview.net/, able to see interesting review comments for the papers
