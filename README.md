@@ -57,3 +57,6 @@ Collection of reading resources that are interesting or very helpful for machine
 * [Tensorflow Course](https://github.com/machinelearningmindset/TensorFlow-Course)
 * [Deep Learning Ocean](https://github.com/machinelearningmindset/deep-learning-ocean)
 * [Deep Learning Monitor](https://deeplearn.org/), collects most recent topic/papers about deep learning
+
+## Academic Sources
+- https://openreview.net/
