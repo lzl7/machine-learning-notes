@@ -11,6 +11,7 @@ Collection of reading resources that are interesting or very helpful for machine
 - [Machine learning is fun](https://www.machinelearningisfun.com/) Great reading resource for the entry-level learners
 - Machine learning visualization
    - [A visual introduction to machine leanring](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+   - [CNN visualization](https://poloclub.github.io/cnn-explainer/)
 
 
 ## Machine learning in practice
