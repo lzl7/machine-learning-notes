@@ -6,6 +6,13 @@ The repository to store all the machine learning related materials.
 # Learning Resources
 Collection of reading resources that are interesting or very helpful for machine learning.
 
+## Machine Learning 101
+- [Machine learning for humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12) Easy to understanding and good for entry-level learners.
+- [Machine learning is fun](https://www.machinelearningisfun.com/) Great reading resource for the entry-level learners
+- Machine learning visualization
+   - [A visual introduction to machine leanring](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+
+
 ## Machine learning in practice
 - [Rules of Machine learning, Martin Zinkevich](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 - [Writing code for NLP Research](https://github.com/allenai/writing-code-for-nlp-research-emnlp2018/blob/master/writing_code_for_nlp_research.pdf)
@@ -44,8 +51,6 @@ Collection of reading resources that are interesting or very helpful for machine
 * [AI Progress Measurement](https://www.eff.org/ai/metrics), the measurement about AI progress
 
 ## Articles
-* [Machine learning for humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12) Easy to understanding and good for entry-level learners.
-* [Machine learning is fun](https://www.machinelearningisfun.com/) Great reading resource for the entry-level learners
 * [Learning how to learn deep learning](https://evilmartians.com/chronicles/learning-how-to-learn-deep-learning)
 * [The matrix calculus you need for deep learning](https://explained.ai/matrix-calculus/)
 
