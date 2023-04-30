@@ -25,6 +25,7 @@ Collection of reading resources that are interesting or very helpful for machine
 ## Machine learning in practice
 - [Rules of Machine learning, Martin Zinkevich](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 - [Writing code for NLP Research](https://github.com/allenai/writing-code-for-nlp-research-emnlp2018/blob/master/writing_code_for_nlp_research.pdf)
+- [Learning how to learn deep learning](https://evilmartians.com/chronicles/learning-how-to-learn-deep-learning)
 
 
 ## Books
@@ -57,7 +58,6 @@ Collection of reading resources that are interesting or very helpful for machine
 * [AI Progress Measurement](https://www.eff.org/ai/metrics), the measurement about AI progress
 
 ## Articles
-* [Learning how to learn deep learning](https://evilmartians.com/chronicles/learning-how-to-learn-deep-learning)
 * [The matrix calculus you need for deep learning](https://explained.ai/matrix-calculus/)
 
 ## Dataset
