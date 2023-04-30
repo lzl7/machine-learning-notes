@@ -47,6 +47,7 @@ Collection of reading resources that are interesting or very helpful for machine
 * [Deep Mind Blog](https://deepmind.com/blog/)
 * [Visualizing machine learning one concept at a time](https://jalammar.github.io/), very cool and interesting blogs which illustrates one concept in detail in each blog.
 * [Deep Learning Monitor](https://deeplearn.org/), collects most recent topic about deep learning
+* [deeplearning.ai](https://www.deeplearning.ai/)
 
 ## Measurement
 * [AI Progress Measurement](https://www.eff.org/ai/metrics), the measurement about AI progress
