@@ -30,6 +30,7 @@ Collection of reading resources that are interesting or very helpful for machine
 ## Books
 * [Deep Learning Book](https://www.deeplearningbook.org/) Deep learning book authored by Ian Goodfellow, Yoshua Bengio and Aaron Courville
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) This book teaches the deep learning concepts with great detail examples.
+* [Deep Learning with PyTorch book](https://github.com/borninfreedom/DeepLearning/blob/master/Books/Deep-Learning-with-PyTorch.pdf)
 
 ## Papers related
 * [Papers with code](https://paperswithcode.com/), it highlights trending ML research and the code to implement it
@@ -44,6 +45,7 @@ Collection of reading resources that are interesting or very helpful for machine
 * [stateoftheart.ai](https://www.stateoftheart.ai/), collect the state of art tech about Artificial Intelligence (AI) and Machine Learning (ML)
 * [Distill](https://distill.pub/), Latest articles about machine learning
 * [Facebook AI Blog](https://research.fb.com/blog/)
+* [Google AI blog](https://ai.googleblog.com/)
 * [Open AI](https://openai.com/)
 * [The Berkeley Artificial Intelligence Research Blog](https://bair.berkeley.edu/blog/)
 * [Deep Mind Blog](https://deepmind.com/blog/)
@@ -65,7 +67,6 @@ Collection of reading resources that are interesting or very helpful for machine
 * [Must-read Blogs for AI and Deep Learning Enthusiasts](https://blog.paralleldots.com/data-science/must-read-blogs-ai-deep-learning-enthusiasts/)
 * [Tensorflow Course](https://github.com/machinelearningmindset/TensorFlow-Course)
 * [Deep Learning Ocean](https://github.com/machinelearningmindset/deep-learning-ocean)
-* [Deep Learning Monitor](https://deeplearn.org/), collects most recent topic/papers about deep learning
 
 ## Academic Sources
 - https://openreview.net/, able to see interesting review comments for the papers
