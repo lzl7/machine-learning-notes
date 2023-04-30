@@ -13,17 +13,19 @@ Collection of reading resources that are interesting or very helpful for machine
    - [A visual introduction to machine leanring](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
    - [CNN visualization](https://poloclub.github.io/cnn-explainer/)
 
+## Machine Learning 201
+- [Machine learning by Andrew Ng, Standford University](https://www.coursera.org/learn/machine-learning) Great machine learning starting resources
+- * [Machine learning (HUng-yi Lee, NTU)](https://www.youtube.com/watch?v=CXgbekl66jc&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49) Very great learning course. Professor Lee is humor and the introduction for the concepts/formula deductions are very easy to understand. You could lean how machine learning works, why it works.
+    * More machine learning courses: http://speech.ee.ntu.edu.tw/~tlkagk/courses.html
+- [Stanford's RNN class](http://cs224d.stanford.edu/), [Youtube](https://www.youtube.com/watch?v=OQQ-W_63UgQ&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
+- [Stanford's CNN class](http://cs231n.stanford.edu/)
+- [Reinforcement Learning](https://www.davidsilver.uk/teaching/)
+- [FastAI online courses](https://www.fast.ai/), FastAI has a lot of great online courses and the courses are very focusing on the practice. Great resources to hand on.
 
 ## Machine learning in practice
 - [Rules of Machine learning, Martin Zinkevich](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 - [Writing code for NLP Research](https://github.com/allenai/writing-code-for-nlp-research-emnlp2018/blob/master/writing_code_for_nlp_research.pdf)
 
-## Videos/Courses
-* [Machine learning (HUng-yi Lee, NTU)](https://www.youtube.com/watch?v=CXgbekl66jc&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49) Very great learning course. Professor Lee is humor and the introduction for the concepts/formula deductions are very easy to understand. You could lean how machine learning works, why it works.
-    * More machine learning courses: http://speech.ee.ntu.edu.tw/~tlkagk/courses.html
-* [Machine learning by Andrew Ng, Standford University](https://www.coursera.org/learn/machine-learning) Great machine learning starting resources
-* [Natural Language Processing with Deep Learning](https://www.youtube.com/watch?v=OQQ-W_63UgQ&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6) Natural Language Processing [courses](http://web.stanford.edu/class/cs224n/) from Standford University.
-* [FastAI online courses](https://www.fast.ai/), FastAI has a lot of great online courses and the courses are very focusing on the practice. Great resources to hand on.
 
 ## Books
 * [Deep Learning Book](https://www.deeplearningbook.org/) Deep learning book authored by Ian Goodfellow, Yoshua Bengio and Aaron Courville
