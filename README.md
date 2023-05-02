@@ -64,6 +64,7 @@ Collection of reading resources that are interesting or very helpful for machine
 
 ## Dataset
 - [Allen AI Data](https://allenai.org/data)
+- [Hugging Face Datasets](https://huggingface.co/datasets)
 
 ## Resource Hub
 * [Must-read Blogs for AI and Deep Learning Enthusiasts](https://blog.paralleldots.com/data-science/must-read-blogs-ai-deep-learning-enthusiasts/)
