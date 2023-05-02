@@ -33,7 +33,8 @@ Collection of reading resources that are interesting or very helpful for machine
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) This book teaches the deep learning concepts with great detail examples.
 * [Deep Learning with PyTorch book](https://github.com/borninfreedom/DeepLearning/blob/master/Books/Deep-Learning-with-PyTorch.pdf)
 
-## Papers related
+## Academic Sources
+* https://openreview.net/, able to see interesting review comments for the papers
 * [Papers with code](https://paperswithcode.com/), it highlights trending ML research and the code to implement it
 * [Machine translation reading list](https://github.com/THUNLP-MT/MT-Reading-List), Tsinghua Natural Language Processing Group summarizes a list of paper list worth to read
 * [Graph Neural Networks(GNN) Papers](https://github.com/thunlp/GNNPapers), great paper list for graph neural networks
@@ -68,5 +69,4 @@ Collection of reading resources that are interesting or very helpful for machine
 * [Tensorflow Course](https://github.com/machinelearningmindset/TensorFlow-Course)
 * [Deep Learning Ocean](https://github.com/machinelearningmindset/deep-learning-ocean)
 
-## Academic Sources
-- https://openreview.net/, able to see interesting review comments for the papers
+
