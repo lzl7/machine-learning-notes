@@ -21,6 +21,7 @@ Collection of reading resources that are interesting or very helpful for machine
 - [Stanford's CNN class](http://cs231n.stanford.edu/)
 - [Reinforcement Learning](https://www.davidsilver.uk/teaching/)
 - [FastAI online courses](https://www.fast.ai/), FastAI has a lot of great online courses and the courses are very focusing on the practice. Great resources to hand on.
+- [The matrix calculus you need for deep learning](https://explained.ai/matrix-calculus/)
 
 ## Machine learning in practice
 - [Rules of Machine learning, Martin Zinkevich](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
@@ -58,9 +59,6 @@ Collection of reading resources that are interesting or very helpful for machine
 
 ## Measurement
 * [AI Progress Measurement](https://www.eff.org/ai/metrics), the measurement about AI progress
-
-## Articles
-* [The matrix calculus you need for deep learning](https://explained.ai/matrix-calculus/)
 
 ## Dataset
 - [Allen AI Data](https://allenai.org/data)
