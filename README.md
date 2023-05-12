@@ -53,6 +53,7 @@ Collection of reading resources that are interesting or very helpful for machine
 * [The Berkeley Artificial Intelligence Research Blog](https://bair.berkeley.edu/blog/)
 * [Deep Mind Blog](https://deepmind.com/blog/)
 * [Visualizing machine learning one concept at a time](https://jalammar.github.io/), very cool and interesting blogs which illustrates one concept in detail in each blog.
+* https://explained.ai/
 * [Deep Learning Monitor](https://deeplearn.org/), collects most recent topic about deep learning
 * [deeplearning.ai](https://www.deeplearning.ai/)
 * [Hugging Face](https://huggingface.co/)
